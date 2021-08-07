@@ -114,19 +114,25 @@ input[title^="baş"]{} */
 //    });
 //  });
 
- //jquery event-3 mouseout();
+//jquery event-3 mouseout();
 // $(document).ready(function () {
 //   $("#selector2").mouseout(function () {
 //     $("#css2").css("color", "blue");
 //   });
 // });
 
+//jquery event-3 keypress();
+//mouse işareledim sonra klavyeden bir tuşa bas ve çek
+// $(document).ready(function () {
+//   $("#selector2").keypress(function () {
+//     $("#css2").css("color", "blue");
+//   });
+// });
 
- //jquery event-3 keypress();
- //mousle işareledim sonra klavyeden bir tuşa bas
+//jquery event-4 keypress();
+//mouse işareledim sonra klavyeden bir tuşa sadece bas
 $(document).ready(function () {
-  $("#selector2").keypress(function () {
+  $("#selector2").keydown(function () {
     $("#css2").css("color", "blue");
   });
 });
-
