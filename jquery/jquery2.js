@@ -63,9 +63,20 @@ input[title^="baş"]{} */
 //   });
 // });
 
-//dom css
+//dom css -1
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $("#css").css("color", "blue");
+//   });
+// });
+
+//dom css -2
 $(document).ready(function () {
   $("#selector").click(function () {
-    $("#css").css("color", "blue");
+    $("#css").css({
+      color: "red",
+      background: "yellow",
+      fontSize: "2rem",
+    });
   });
 });
