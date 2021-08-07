@@ -46,3 +46,12 @@ input[title^="baş"]{} */
 
 //pseudo element ==> ::
 //pseudo class ==> : LEvHa ==>
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// dom html
+$(document).ready(function () {
+  $("#selector").click(function () {
+    $("#html").html("<h1>içerikler</h1>");
+  });
+});
