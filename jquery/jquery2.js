@@ -57,8 +57,15 @@ input[title^="baş"]{} */
 // });
 
 //dom text
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $(".text").text('<h1>içerikler</h1>');
+//   });
+// });
+
+//dom css
 $(document).ready(function () {
   $("#selector").click(function () {
-    $(".text").text('<h1>içerikler</h1>');
+    $("#css").css("color", "blue");
   });
 });
