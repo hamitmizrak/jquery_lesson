@@ -82,13 +82,20 @@ input[title^="baş"]{} */
 // });
 
 //dom css -3 object
-let object = {
-  color: "red",
-  background: "yellow",
-  fontSize: "2rem",
-};
+//  let object = {
+//    color: "red",
+//    background: "yellow",
+//    fontSize: "2rem",
+//  };
+//  $(document).ready(function () {
+//    $("#selector").click(function () {
+//      $("#css").css(object);
+//    });
+//  });
+
+//jquery event-1 click();
 $(document).ready(function () {
   $("#selector").click(function () {
-    $("#css").css(object);
+    $("#css").css("color", "red");
   });
 });
