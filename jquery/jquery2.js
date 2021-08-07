@@ -114,4 +114,10 @@ $(document).ready(function () {
    });
  });
 
+ //jquery event-1 mouseout();
+$(document).ready(function () {
+  $("#selector2").mouseout(function () {
+    $("#css2").css("color", "blue");
+  });
+});
 
