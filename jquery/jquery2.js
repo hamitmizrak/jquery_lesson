@@ -50,8 +50,15 @@ input[title^="baş"]{} */
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // dom html
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $("#html").html("<h1>içerikler</h1>");
+//   });
+// });
+
+//dom text
 $(document).ready(function () {
   $("#selector").click(function () {
-    $("#html").html("<h1>içerikler</h1>");
+    $(".text").text('<h1>içerikler</h1>');
   });
 });
