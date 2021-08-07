@@ -71,12 +71,24 @@ input[title^="baş"]{} */
 // });
 
 //dom css -2
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $("#css").css({
+//       color: "red",
+//       background: "yellow",
+//       fontSize: "2rem",
+//     });
+//   });
+// });
+
+//dom css -3 object
+let object = {
+  color: "red",
+  background: "yellow",
+  fontSize: "2rem",
+};
 $(document).ready(function () {
   $("#selector").click(function () {
-    $("#css").css({
-      color: "red",
-      background: "yellow",
-      fontSize: "2rem",
-    });
+    $("#css").css(object);
   });
 });
