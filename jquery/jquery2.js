@@ -106,3 +106,12 @@ $(document).ready(function () {
     $("#css2").css("color", "blue");
   });
 });
+
+//jquery event-1 mouseover();
+ $(document).ready(function () {
+  $("#selector2").mouseover(function () {
+     $("#css2").css("color", "blue");
+   });
+ });
+
+
