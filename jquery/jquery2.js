@@ -99,3 +99,10 @@ $(document).ready(function () {
     $("#css").css("color", "red");
   });
 });
+
+//jquery event-1 dblclick();
+$(document).ready(function () {
+  $("#selector2").dblclick(function () {
+    $("#css2").css("color", "blue");
+  });
+});
