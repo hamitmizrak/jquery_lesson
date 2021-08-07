@@ -94,29 +94,38 @@ input[title^="baş"]{} */
 //  });
 
 //jquery event-1 click();
-$(document).ready(function () {
-  $("#selector").click(function () {
-    $("#css").css("color", "red");
-  });
-});
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $("#css").css("color", "red");
+//   });
+// });
 
 //jquery event-1 dblclick();
-$(document).ready(function () {
-  $("#selector2").dblclick(function () {
-    $("#css2").css("color", "blue");
-  });
-});
+// $(document).ready(function () {
+//   $("#selector2").dblclick(function () {
+//     $("#css2").css("color", "blue");
+//   });
+// });
 
-//jquery event-1 mouseover();
- $(document).ready(function () {
-  $("#selector2").mouseover(function () {
-     $("#css2").css("color", "blue");
-   });
- });
+//jquery event-2 mouseover();
+//  $(document).ready(function () {
+//   $("#selector2").mouseover(function () {
+//      $("#css2").css("color", "blue");
+//    });
+//  });
 
- //jquery event-1 mouseout();
+ //jquery event-3 mouseout();
+// $(document).ready(function () {
+//   $("#selector2").mouseout(function () {
+//     $("#css2").css("color", "blue");
+//   });
+// });
+
+
+ //jquery event-3 keypress();
+ //mousle işareledim sonra klavyeden bir tuşa bas
 $(document).ready(function () {
-  $("#selector2").mouseout(function () {
+  $("#selector2").keypress(function () {
     $("#css2").css("color", "blue");
   });
 });
