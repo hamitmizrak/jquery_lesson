@@ -2,6 +2,19 @@
 //jQuery ==> '
 //sayfa yüklendikten sonra js , jquery açılsın
 
+//fazla kodlardan arınmak
+//clean code
+// ajax
+//Dom daha rahat yönetebiliyoruz.
+
+//write less, do more
+
+//lightweight
+//cross-browser
+//2006 John Resig
+//JS kütüphanesidir.
+//bir programlama dili değildir.
+
 // $(document).ready();
 //anonymous function ==> isimsiz fonksiyon
 // $(tag).özellikler();
@@ -131,8 +144,48 @@ input[title^="baş"]{} */
 
 //jquery event-4 keypress();
 //mouse işareledim sonra klavyeden bir tuşa sadece bas
+// $(document).ready(function () {
+//   $("#selector2").keydown(function () {
+//     $("#css2").css("color", "blue");
+//   });
+// });
+
+//addClass removeClass toogleClass
+// $(document).ready(function () {
+//   $("#selector2").click(function () {
+//     $("#cssDegisti").addClass(".cssAdd");
+//     $("#cssDegisti").removeClass(".cssAdd");
+//     $("#cssDegisti").toggleClass(".cssAdd");
+//   });
+// });
+
+//attribute
+// $(document).ready(function () {
+//   $("#selector").click(function () {
+//     $("#image_jquery").attr("width", "111");
+//    // $("#image_jquery").removeAttr("width", "111");
+//   });
+// });
+
+
+//hide -show
+// $(document).ready(function () {
+//   $("#gizle").click(function () {
+//     $("#image_jquery").hide();
+//   });
+// });
+
+// $(document).ready(function () {
+//   $("#goster").click(function () {
+//     $("#image_jquery").show();
+//   });
+// });
+
+//fade slice
 $(document).ready(function () {
-  $("#selector2").keydown(function () {
-    $("#css2").css("color", "blue");
+  $("#gizle").click(function () {
+    $("#image_jquery").fadeOut("slow");
   });
 });
+
+
